@@ -1,32 +1,25 @@
 public class Vertex {
+    private String label;
+    private boolean visited;
 
-    public Vertex() {
-        vertexLabel = "Unassigned";
-        visitedStatus = false;
+    public Vertex(String label) {
+        this.label = label;
+        this.visited = false;
     }
 
-    public Vertex( String label ) {
-        vertexLabel = label;
-        visitedStatus = false;
-    }
-    private String vLabel;
     public String getLabel() {
-        return vLabel;
-    }
-    public String getVertexLabel() {
-        return vertexLabel;
+        return label;
     }
 
-    public boolean getVisitStatus() {
-        return visitedStatus;
-    }
-    public void setVisitStatus( boolean s ) {
-        visitedStatus = s;
-    }
-    public void resetVisitStatus() {
-        visitedStatus = false;
+    public void setLabel(String label) {
+        this.label = label;
     }
 
-    private String vertexLabel;
-    private boolean visitedStatus;
+    public boolean isVisited() {
+        return visited;
+    }
+
+    public void setVisited(boolean visited) {
+        this.visited = visited;
+    }
 }
