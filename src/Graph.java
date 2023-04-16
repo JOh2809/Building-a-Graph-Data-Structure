@@ -70,9 +70,27 @@ public class Graph {
         }
         return neighbors;
 
-        // final HashMap< Vertex, LinkedList< Edge > > adjacencyList;
+        //final HashMap< Vertex, LinkedList< Edge > > adjacencyList;{
+       //     return egde;
+       // };
 
 
         // private ArrayList<LinkedList<Integer>> adjacencyList;
     }
+     // function that returns list of vertices
+    public LinkedList<Vertex> getVertices() {
+        LinkedList <Vertex> vertices = new LinkedList<>();// allocate linked list of vertex
+        for (HashMap.Entry<Vertex, LinkedList<Vertex>> hEntry : adjacencyList.entrySet()) {
+            // for all entries in my
+            vertices.add(hEntry.getKey());
+        }
+        return vertices;
+    }
+
+    public void getNeighbors(Integer v) {
+        LinkedList <Vertex> vertices = new LinkedList<>();
+  return  ;
+    }
 }
+
+// do you have an linked 0f vertices
