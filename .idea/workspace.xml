@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be49bc74-cf0e-4e1c-b037-68a99eb237b6" name="Changes" comment="[Lab Work] - Building a Graph Data Structure" />
+    <list default="true" id="be49bc74-cf0e-4e1c-b037-68a99eb237b6" name="Changes" comment="https://github.umn.edu/joh21423/-Building-a-Graph-Data-Structure.git">
+      <change afterPath="$PROJECT_DIR$/Test/BFSTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/DFSTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/GraphBFSTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/GraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/GraphTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vertex.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,12 +26,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -66,7 +79,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="JUnit.DFSTest">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Main" />
@@ -81,6 +94,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BFSTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Main" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BFSTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DFSTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Main" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DFSTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GraphTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Main" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GraphTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GraphTest.addEdge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Main" />
       <option name="PACKAGE_NAME" value="" />
@@ -91,21 +131,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GraphTest.numVertices" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Main" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GraphTest" />
-      <option name="METHOD_NAME" value="numVertices" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DFSTest" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="JUnit.BFSTest" />
+        <item itemvalue="JUnit.GraphTest" />
         <item itemvalue="JUnit.GraphTest.addEdge" />
-        <item itemvalue="JUnit.GraphTest.numVertices" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +160,9 @@
       <workItem from="1681605001323" duration="631000" />
       <workItem from="1681756693939" duration="479000" />
       <workItem from="1681761880428" duration="316000" />
-      <workItem from="1681773328672" duration="339000" />
+      <workItem from="1681773328672" duration="1643000" />
+      <workItem from="1681873090940" duration="2329000" />
+      <workItem from="1683156811220" duration="6355000" />
     </task>
     <task id="LOCAL-00001" summary="[Lab Work] - Building a Graph Data Structure">
       <created>1680978859440</created>
@@ -151,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681773423207</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="https://github.umn.edu/joh21423/-Building-a-Graph-Data-Structure.git">
+      <created>1681773894295</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681773894295</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,15 +211,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[Lab Work] - Building a Graph Data Structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Lab Work] - Building a Graph Data Structure" />
+    <MESSAGE value="https://github.umn.edu/joh21423/-Building-a-Graph-Data-Structure.git" />
+    <option name="LAST_COMMIT_MESSAGE" value="https://github.umn.edu/joh21423/-Building-a-Graph-Data-Structure.git" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DFS.java</url>
-          <line>76</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/Test/GraphTest.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

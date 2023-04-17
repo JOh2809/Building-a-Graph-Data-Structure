@@ -13,21 +13,30 @@ public class Graph {
         return adjacencyList.size();
     }
 
-    public void addVertex(Vertex v) {
-        if (!adjacencyList.containsKey(v)) { // you can query a hashmap to see if contains a key
+
+    public boolean addVertex(Vertex v) {
+        if (!adjacencyList.containsKey(v)) {
             // add a key to the hash map
             // with the put function, takes a key followed by a value
             adjacencyList.put(v, new LinkedList<Vertex>());
+            return true; // vertex added successfully
         }
+        return false; // vertex already exists
     }
 
-    public void addEdge(Vertex srcV, Vertex dstV) {
-
-        // first, does srcV exist???
+    //    }
+    public boolean addEdge(Vertex srcV, Vertex dstV) {
         if (adjacencyList.containsKey(srcV)) {
-            // get the "value" or the LinkedList<Vertex> at key: srcV
             adjacencyList.get(srcV).add(dstV);
+            if (adjacencyList.containsKey(dstV)) {
+                adjacencyList.get(dstV).add(srcV);
+            } else {
+                adjacencyList.put(dstV, new LinkedList<Vertex>());
+                adjacencyList.get(dstV).add(srcV);
+            }
+            return true; // edge added successfully
         }
+        return false; // failed to add edge
     }
 
     public int outDegree(Integer v) {
@@ -35,13 +44,14 @@ public class Graph {
     }
 
     public int getNumEdges() {
-        int edgeSum = 0;
-        // range based for loops for hashmaps are different...
-        // need to iterate over the entries in the hashmap..
-        for (HashMap.Entry<Vertex, LinkedList<Vertex>> hEntry : adjacencyList.entrySet()) {
-            edgeSum = edgeSum + hEntry.getValue().size();
+        int edgeCount = 0;
+        // Iterate over the entries in the hashmap
+        for (HashMap.Entry<Vertex, LinkedList<Vertex>> entry : adjacencyList.entrySet()) {
+            // Add the size of the LinkedList (the number of adjacent vertices) to the edge count
+            edgeCount += entry.getValue().size();
         }
-        return edgeSum;
+        // Divide the edge count by 2 since each edge is counted twice (once for each endpoint vertex)
+        return edgeCount / 2;
     }
 
 
@@ -71,15 +81,16 @@ public class Graph {
         return neighbors;
 
         //final HashMap< Vertex, LinkedList< Edge > > adjacencyList;{
-       //     return egde;
-       // };
+        //     return egde;
+        // };
 
 
         // private ArrayList<LinkedList<Integer>> adjacencyList;
     }
-     // function that returns list of vertices
+
+    // function that returns list of vertices
     public LinkedList<Vertex> getVertices() {
-        LinkedList <Vertex> vertices = new LinkedList<>();// allocate linked list of vertex
+        LinkedList<Vertex> vertices = new LinkedList<>();// allocate linked list of vertex
         for (HashMap.Entry<Vertex, LinkedList<Vertex>> hEntry : adjacencyList.entrySet()) {
             // for all entries in my
             vertices.add(hEntry.getKey());
@@ -88,9 +99,14 @@ public class Graph {
     }
 
     public void getNeighbors(Integer v) {
-        LinkedList <Vertex> vertices = new LinkedList<>();
-  return  ;
+        LinkedList<Vertex> vertices = new LinkedList<>();
+        return;
+    }
+
+    public int outDegree(Vertex v) {
+        if (adjacencyList.containsKey(v)) {
+            return adjacencyList.get(v).size();
+        }
+        return 0;
     }
 }
-
-// do you have an linked 0f vertices

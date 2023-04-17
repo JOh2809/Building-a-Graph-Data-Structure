@@ -1,17 +1,37 @@
+//public class Edge {
+//
+//    // Can an edge exist without vertices???
+//    // Should Edge() be a good choice???
+//
+//   private Vertex srcVertex;
+//
+//   private Vertex dstVertex;
+//
+//    Edge(Vertex src, Vertex dst) {
+//         srcVertex = src;
+//        dstVertex = dst;
+//    }// Add edges to the graph
+//
+//
+//
+//    }
+//
 public class Edge {
 
-    // Can an edge exist without vertices???
-    // Should Edge() be a good choice???
+    private Vertex srcVertex;
 
-   private Vertex srcVertex;
-
-   private Vertex dstVertex; 
+    private Vertex dstVertex;
 
     Edge(Vertex src, Vertex dst) {
-         srcVertex = src;
+        srcVertex = src;
         dstVertex = dst;
-    }// Add edges to the graph
-
-
     }
 
+    public Vertex getSrcVertex() {
+        return srcVertex;
+    }
+
+    public Vertex getDstVertex() {
+        return dstVertex;
+    }
+}
