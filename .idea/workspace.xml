@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be49bc74-cf0e-4e1c-b037-68a99eb237b6" name="Changes" comment="https://github.umn.edu/joh21423/-Building-a-Graph-Data-Structure.git">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS.java" afterDir="false" />
+    <list default="true" id="be49bc74-cf0e-4e1c-b037-68a99eb237b6" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/Main.java">
+      <change beforePath="$PROJECT_DIR$/Test/GraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/GraphTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +153,7 @@
       <workItem from="1681773328672" duration="1643000" />
       <workItem from="1681873090940" duration="2329000" />
       <workItem from="1683156811220" duration="6355000" />
-      <workItem from="1683215942062" duration="294000" />
+      <workItem from="1683215942062" duration="603000" />
     </task>
     <task id="LOCAL-00001" summary="[Lab Work] - Building a Graph Data Structure">
       <created>1680978859440</created>
@@ -184,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681773894295</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/Main.java">
+      <created>1683216495631</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683216495631</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,17 +210,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[Lab Work] - Building a Graph Data Structure" />
     <MESSAGE value="https://github.umn.edu/joh21423/-Building-a-Graph-Data-Structure.git" />
-    <option name="LAST_COMMIT_MESSAGE" value="https://github.umn.edu/joh21423/-Building-a-Graph-Data-Structure.git" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Test/GraphTest.java</url>
-          <line>78</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/Main.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/Main.java" />
   </component>
 </project>
