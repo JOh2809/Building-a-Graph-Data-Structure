@@ -20,4 +20,4 @@ In the context of a graph data structure, where each Vertex represents a node in
 By checking if a HashMap already contains a Vertex before inserting it, we can ensure that each Vertex is unique and prevent accidental overwriting. This helps to maintain the integrity of the graph data structure and ensure that it behaves as intended.
 
 
-Q: Does your implementation fit our ideas for the SOLID principles we've discussed so far?  Why or why not?
+
