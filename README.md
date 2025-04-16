@@ -1,5 +1,4 @@
 # Building-a-Graph-Data-Structure
-I  moved everything from UMD  github to my personal github
 Q: Describe in your own words what the HashMap does. A: HashMap is a data structure that allows you to store and retrieve values using keys. It provides a way to map a unique key to a specific value, and then later retrieve that value using the same key.
 
 Under the hood, a HashMap uses a hash function to convert the key into an index in an array. The value is then stored in the corresponding array location. When you want to retrieve the value, the hash function is used again to find the index of the value in the array, and then it can be retrieved from there.
